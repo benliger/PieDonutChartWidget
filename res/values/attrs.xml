@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PieDonutChart">
+        <attr name="highlightStrength" format="float" />
+        <attr name="ratioCircleInside" format="float" />
+        <attr name="colorCircleInside" format="color" />
+        <attr name="pieRotation" format="integer" />
+    </declare-styleable>
+
+</resources>
