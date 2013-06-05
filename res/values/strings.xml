@@ -3,5 +3,6 @@
 
     <string name="app_name">Pie/Donut View</string>
     <string name="change_data">Change Data</string>
-
+    <string name="radius">Radius Donuts</string>
+    
 </resources>

@@ -43,7 +43,7 @@ public class PieDonutChart extends ViewGroup {
     private float mHighlightStrength = 1.15f;
     private int mPieRotation;
 
-    /**
+	/**
      * Class constructor taking only a context. Use this constructor to create
      * {@link PieDonutChart} objects from your own code.
      *
@@ -134,6 +134,11 @@ public class PieDonutChart extends ViewGroup {
     	mTotal = 0;
     	mData.clear();
     }
+    
+    public void setRatioCircleInside(float ratioCircleInside) {
+		this.mRatioCircleInside = ratioCircleInside;
+		onDataChanged();
+	}
 
     @Override
     protected void onLayout(boolean changed, int l, int t, int r, int b) {
